@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day04_Maven/C02_MavenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day04_Maven/C02_MavenTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,44 +33,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.C02_MavenTest">
-    <configuration name="C01_Maven_ilkTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_Maven.C01_Maven_ilkTest" />
+}</component>
+  <component name="RunManager" selected="JUnit.Assertion">
+    <configuration name="Assertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_Maven.*" />
+          <option name="PATTERN" value="day05_Junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day05_Junit" />
+      <option name="MAIN_CLASS_NAME" value="day05_Junit.Assertion" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_MavenTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day04_Maven.C02_MavenTest" />
+    <configuration name="Assertion.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day04_Maven.*" />
+          <option name="PATTERN" value="day05_Junit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="day05_Junit" />
+      <option name="MAIN_CLASS_NAME" value="day05_Junit.Assertion" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekrar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tekrar" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekrar.Test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tekrar" />
+      <option name="METHOD_NAME" value="Test02" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tekrar.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tekrar" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.C02_MavenTest" />
-        <item itemvalue="Application.C01_Maven_ilkTest" />
+        <item itemvalue="JUnit.Assertion" />
+        <item itemvalue="JUnit.Assertion.test04" />
+        <item itemvalue="JUnit.Tekrar" />
+        <item itemvalue="JUnit.Tekrar.Test02" />
+        <item itemvalue="JUnit.Tekrar.test01" />
       </list>
     </recent_temporary>
   </component>

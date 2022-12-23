@@ -48,10 +48,13 @@ public class C02_MavenTest {
         //amount kismina yatirmak istediginiz herhangi bir miktari yazin
     WebElement amount=driver.findElement(By.cssSelector("input[id='sp_amount']"));
     amount.sendKeys("500");
+
         //tarih kismina "2020-09-10" yazdirin
         driver.findElement(By.xpath("//*[@id='sp_date']")).sendKeys("2020-09-10");
+
         //Pay buttonuna tiklayin
         driver.findElement(By.id("pay_saved_payees")).click();
+        
         //"The payment was successfully submitted." mesajinin ciktigini control edin : ODEME YAPTIKTAN SONRA YAZI GORUNUYOR MU DİYE TEST EDİYORUZ
       WebElement mesaj=  driver.findElement(By.xpath("//*[text()='The payment was successfully submitted.']"));
       if (mesaj.isDisplayed()){
