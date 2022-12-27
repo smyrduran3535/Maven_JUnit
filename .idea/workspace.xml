@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C03_LoginUserWithIncorrectEmailPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C03_LoginUserWithIncorrectEmailPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C04_Logout_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C04_Logout_User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,81 +45,75 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C02_DropdownReuseable.selectFromDropdown">
-    <configuration name="C01_Dropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C05">
+    <configuration name="C03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.C03" />
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="Selenium_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C01_Dropdown" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.C04" />
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium_Practice" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.C05" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Dropdown.getSelectedOptionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="Selenium_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C01_Dropdown" />
-      <option name="METHOD_NAME" value="getSelectedOptionsTest" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.C05" />
+      <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_Dropdown.printAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C05.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day06.*" />
+          <option name="PATTERN" value="Selenium_Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C01_Dropdown" />
-      <option name="METHOD_NAME" value="printAllTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_Dropdown.selectByIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C01_Dropdown" />
-      <option name="METHOD_NAME" value="selectByIndexTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_DropdownReuseable.selectFromDropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day06" />
-      <option name="MAIN_CLASS_NAME" value="day06.C02_DropdownReuseable" />
-      <option name="METHOD_NAME" value="selectFromDropdown" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.C05" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_DropdownReuseable.selectFromDropdown" />
-        <item itemvalue="JUnit.C01_Dropdown" />
-        <item itemvalue="JUnit.C01_Dropdown.getSelectedOptionsTest" />
-        <item itemvalue="JUnit.C01_Dropdown.printAllTest" />
-        <item itemvalue="JUnit.C01_Dropdown.selectByIndexTest" />
+        <item itemvalue="JUnit.C05" />
+        <item itemvalue="JUnit.C05.test01" />
+        <item itemvalue="JUnit.C05.name" />
+        <item itemvalue="Application.C04" />
+        <item itemvalue="Application.C03" />
       </list>
     </recent_temporary>
   </component>

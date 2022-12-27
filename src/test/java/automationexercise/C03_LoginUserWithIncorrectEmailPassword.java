@@ -50,7 +50,7 @@ public class C03_LoginUserWithIncorrectEmailPassword {
         driver.findElement(By.xpath("//*[@data-qa='login-button']")).click();
     incorrect();
     }
-    //3. Verify that home page is visible successfully
+
 
 
 
