@@ -1,6 +1,7 @@
 package automationexercise;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -45,7 +46,8 @@ public class C05 {
       driver.findElement(By.xpath("//*[@data-qa='signup-name']")).sendKeys("Sumeyra");
       driver.findElement(By.xpath("//*[@data-qa='signup-email']")).sendKeys("smyrduran3535@gmail.com");
       driver.findElement(By.xpath("//*[@data-qa='signup-button']")).click();
-
+      WebElement already=driver.findElement(By.xpath("//*[text()='Email Address already exist!']"));
+        Assert.assertTrue(already.isDisplayed());
     }
 
 }

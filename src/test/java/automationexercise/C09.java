@@ -53,7 +53,6 @@ public class C09 {
 
         //8. Verify all the products related to search are visible
 
-
     }
 }
 

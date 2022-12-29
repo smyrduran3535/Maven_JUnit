@@ -44,9 +44,9 @@ public class C06 {
 
         //7. Upload file
         WebElement uploadVisible=driver.findElement(By.xpath("//*[@name='upload_file']"));
-        result=uploadVisible.isDisplayed()?"passed":"failed";
-        System.out.println("uploadVisible = " + result);
-       uploadVisible.isSelected();
+        driver.switchTo().frame(0);
+
+
      // WebElement upload=  driver.findElement(By.xpath("input[type='file']"));
 
         //8. Click 'Submit' button

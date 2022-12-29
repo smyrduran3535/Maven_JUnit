@@ -43,11 +43,27 @@ public class C02_DropdownReuseable {
             }
         }
         //NOTE: sonraki derste tekrar ve kullanımı
-
+/*
+Dropdown?
+-Acilir menu. Birden fazla seçenegi koyabilecegimiz liste.
+***Dropdown nasil automate edilir? How to handle dropdown?
+Dropdown elementi locate edilir.8 locatordan biri kulllaninbilir.
+Select classi kullanilarak bir Select objesi olusturulur. Select select = new Select(dropdownElement);
+Select objectini kullanarak ugun methodlarla islem yapilir
+selectBylndex(int); index 0 dan baslar
+selectByValue(“String”);
+selectByVisibleText(“String”);
+getOptions(); tum dropdown seçenekleri List<WebElement> olarak return eder
+getFirstSelectedOption(); secili olan ilk secenegi(default) return eder.
+ */
     }
 
     @Test
     public void selectFromDropdown() {
+                                      // public void selectFromDropdown(WebElement dropdown, String secenek)
         selectFromDropdown(driver.findElement(By.xpath("//select[@id='year']")), "2005");
+        selectFromDropdown(driver.findElement(By.id("month")),"November");//select elementini secmeye gerek yok yukarda sectik
+        selectFromDropdown(driver.findElement(By.id("day")),"10");
+        selectFromDropdown(driver.findElement(By.id("state")),"Texas" );
     }
 }
