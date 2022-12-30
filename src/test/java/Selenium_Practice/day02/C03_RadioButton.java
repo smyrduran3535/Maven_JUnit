@@ -40,8 +40,8 @@ public class C03_RadioButton {
         // option2 elementlerinin secili oldugunu Test edin
         Assert.assertTrue(optipn2.isSelected());
         // option1 elementlerinin secili olmadıgını test edin
-        Assert.assertFalse(optipn1.isSelected());
+        Assert.assertFalse(optipn1.isSelected());//option 1 secmedik o yuzden false der
         // option3 elementlerinin secili olmadıgını test edin
-        Assert.assertFalse(optipn3.isSelected());//secmedik beklenen de false o yuzden false
+        Assert.assertFalse(optipn3.isSelected());//secmedik beklenen de false o yuzden false (F->F=F : PASSED)
     }
 }

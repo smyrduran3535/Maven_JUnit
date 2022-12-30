@@ -15,6 +15,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class C01_Dropdown {
+
     WebDriver driver;
     @Before
     public void setUp() {
@@ -24,14 +25,14 @@ public class C01_Dropdown {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
         driver.get("https://testcenter.techproeducation.com/index.php?page=dropdown");
     }
-//eger test sınıfında 1 den fazla method olusturulmussa befare kullanılır.beforeclass fail verir
-// beforeClass olmaz ama tek bir test varsa before class kullanılabilir
+    //eger test sınıfında 1 den fazla method olusturulmussa befare kullanılır.beforeclass fail verir
+    // beforeClass olmaz ama tek bir test varsa before class kullanılabilir
     //cunku beforeclass bir kere calısıcak 1 den fazla test case varsa sıkıntı olur o yuzden before kull. cunku biz her bir test icin driveri
     //kullanmamız gerekiyor. test caseler passed olur boylelikle
     @Test
     public void selectByIndexTest(){
 
-    //Dogun yilini, ayini, ve gununu su sekilde secer : 2000, January, 10
+        //Dogun yilini, ayini, ve gununu su sekilde secer : 2000, January, 10
 
         // 1.LOCATE droptdown element
 
@@ -61,7 +62,7 @@ public class C01_Dropdown {
         //tum eyalet isimlerini print edelim
         WebElement state=driver.findElement(By.xpath("//select[@id='state']"));
         Select stateDropdown=new Select(state);
-//stateDropdown.selectByVisibleText("Texas"); bizden tek bunu istemiyor butun elementleri list elemek istiyor. o yuzden List kull !!!!!!
+        //stateDropdown.selectByVisibleText("Texas"); bizden tek bunu istemiyor butun elementleri list elemek istiyor. o yuzden List kull !!!!!!
         List<WebElement> stateList=stateDropdown.getOptions();//butun optionsları getirir getOptions
         for (WebElement eachState:stateList){
             System.out.println(eachState.getText());//gettext yazmazsak sadece eacstate yaparsak referanslarını verir
@@ -69,7 +70,8 @@ public class C01_Dropdown {
         //stateList.stream().map(WebElement::getText).forEach(System.out::println); lambda ile de boyle
     }
 /*
-Dropdown olusturulurken hangi html(classı) kullanılır developer? SELECT CLASSINI kullanır.sadece dropdown icin select classı kullanılır
+Dropdown olusturulurken hangi html(classı) kullanılır developer?
+SELECT CLASSINI kullanır.sadece dropdown icin select classı kullanılır
 1.What is dropdown?
 Dropdown liste olusturmak icin kullanılır
 2.how to handle dropdown elements? Nasıl automate edilir?
@@ -80,7 +82,7 @@ Bunu soran once select classını duymayı bekler...
 ***NOT=>select objesi olusturma nedenim; dropdownların select classı ile olusturulması****
 TUM DROPDOWN ELEMENTLERİNİ NASIL PRINT EDERİZ?
 select objesini kullanarak belli secimler yapabiliriz , aynı zamanda birden fazla da secenekleri bir listeye alabiliriz
- NOT: select objesi olusturma nedenim, dropdownlarin Select classi ile olusturulmasi
+    NOT: select objesi olusturma nedenim, dropdownlarin Select classi ile olusturulmasi
 3. Tum dropdown seceneklerini nasil print ederiz?
     - tum dropdown elementlerini getOptions(); methodu ile listeye koyariz
     - sonra secenekleri loop ile yazdirabilirz
@@ -90,11 +92,10 @@ select objesini kullanarak belli secimler yapabiliriz , aynı zamanda birden faz
     bizim bir tane daha methodumuz var bunu anlamak icin;
     getFirstSelectedOption() secenegi ile return eder.secili olan ilk secenegi return eder
     getFirstSelectedOption(); isselected ile aynı mantık ama getFirstSelectedOption() secili olanı return eder
+*/
 
-     */
-
-@Test
-public void getSelectedOptionsTest(){
+    @Test
+    public void getSelectedOptionsTest(){
 
     //state dropdown daki varsayılan secili seceneginin "select a state" oldugunu verify edelim (otomasyon ile):Text'in varlıgını gormek istiyoruz;Select a state
     WebElement state=driver.findElement(By.xpath("//select[@id='state']"));
@@ -105,16 +106,15 @@ public void getSelectedOptionsTest(){
     //varsayilanText olusturarak method chain yapmıs olduk 2 adımı bire indirdik memory acısından
     Assert.assertEquals("Select a State",varsayilanText);
 
-}
+    }
 
     @After
     public void tearDown() throws InterruptedException {
-
-        Thread.sleep(3000);
+    Thread.sleep(3000);
         driver.close();
-}
+    }
 
 
 
 
-}
+    }

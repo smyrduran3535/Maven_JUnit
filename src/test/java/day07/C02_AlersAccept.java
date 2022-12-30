@@ -15,10 +15,7 @@ public class C02_AlersAccept extends TestBase {
 //Bir metod olusturun: acceptAlert
 //1. butona tıklayın, uyarıdaki OK butonuna tıklayın ve result mesajının  “You successfully clicked an alert” oldugunu test edin.
 
-//Bir metod olusturun: dismissAlert
 
-//Bir metod olusturun: sendKeysAlert
-//3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin, OK butonuna tıklayın ve result mesajında isminizin görüntülendiğini doğrulayın.
 //        1. butona tıklayın,
         driver.findElement(By.xpath("//button[@onclick='jsAlert()']")).click();
         driver

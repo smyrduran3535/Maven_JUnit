@@ -20,7 +20,6 @@ public class C01_TestBaseDemo extends TestBase {
     @Test
     public void test01(){
         //techproeducation ana sayfasına git
-
         driver.get("https://www.techproeducation.com");
         //ve title 'Bottcamps' kelimesini icerdigini test edlim
         String  pageTitle= driver.getTitle();

@@ -48,10 +48,8 @@ public class C06 {
         String expectedTitle = "Google";
         Assert.assertTrue(actualTitle.contains(expectedTitle));
 
-
         //Arama cubuguna “Nutella” yazip aratin
         driver.findElement(By.xpath("//*[@class='gLFyf']")).sendKeys("Nutella", Keys.ENTER);
-
 
         //Bulunan sonuc sayisini yazdirin
         String[] sonucSayisi = driver.findElement(By.xpath("//*[@id='result-stats']")).getText().split(" ");
@@ -65,6 +63,7 @@ public class C06 {
 
         //Sayfayi kapatin
         driver.close();
+
     }
 }
 

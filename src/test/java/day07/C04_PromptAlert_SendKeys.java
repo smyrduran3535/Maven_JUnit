@@ -2,13 +2,10 @@ package day07;
 
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import utilies.TestBase;
 
-public class C04_SendKeys extends TestBase {
+public class C04_PromptAlert_SendKeys extends TestBase {
     @Test
     public void test(){
         //3. butona tıklayın, uyarıdaki metin kutusuna isminizi yazin,

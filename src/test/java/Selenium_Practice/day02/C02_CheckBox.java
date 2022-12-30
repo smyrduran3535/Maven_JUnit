@@ -47,7 +47,7 @@ public class C02_CheckBox {
         Assert.assertTrue(checkBox1.isSelected());
         Assert.assertTrue(checkBox3.isSelected());
         // checkbox2 elementinin secili olmadıgını test edin
-        Assert.assertFalse(checkBox2.isSelected());
+        Assert.assertFalse(checkBox2.isSelected()); passed yapar
          */
     }
 

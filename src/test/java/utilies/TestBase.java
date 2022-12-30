@@ -13,9 +13,10 @@ public class TestBase {
     //@Before,@After :destek methoddur. test method olması icin;@Test olması lazım
     //test base testlerden once ve sonra kullanılır.
     //bunu kullanmak icin inheritance kullancaz ve before ve after methodlarını tekrar tekrar kullanmıycaz
-    //test base kullanmanın tek amacı frameworku daha kullanıslı hale getirmek tesrar yapmamak
+    //test base kullanmanın tek amacı frameworku daha kullanıslı hale getirmek teKRar yapmamak
 //abstract kullancaz: abstract yaparsak child claslar methodlari overload eder.bu sınıfın objesini olusturmak istemiyorum
-    //yani TestBase testbase=new TestBase :bunu istemiyorum... amacım :bu sinifi extend etmek icindeki hazır methodları kullanmak
+    //yani TestBase testbase=new TestBase :bunu istemiyorum... Y A P I L A M A Z
+    // amacım :bu sinifi extend etmek icindeki hazır methodları kullanmak
 
     //driver objesi olustur:driver ya public yada protected olmalı. child classlarda gorulebilmeli
     protected static WebDriver driver;
@@ -33,7 +34,17 @@ public class TestBase {
     //tearDown
     @After
     public void tearDown() {
-     //  driver.quit();
-
+        // driver.quit();
     }
-}
+        public static void switchToWindow(String targetTitle) {
+            String origin = driver.getWindowHandle();
+            for (String handle : driver.getWindowHandles()) {
+                driver.switchTo().window(handle);
+                if (driver.getTitle().equals(targetTitle)) {
+                    return;//loop un dısına cık
+                }
+            }
+            driver.switchTo().window(origin);
+        }
+    }
+

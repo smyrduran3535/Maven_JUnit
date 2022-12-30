@@ -6,11 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C05.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C09.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C02_CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C02_CheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C03_RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C03_RadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C01_TestBaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C01_TestBaseDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C02_AlersAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C02_AlersAccept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C04_SendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C04_PromptAlert_SendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C05_IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C05_IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,49 +48,17 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C05_IFrame.test">
-    <configuration name="C02_AlersAccept.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C01_HandleWindows1.test">
+    <configuration name="C01_HandleWindows1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="day08.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day07" />
-      <option name="MAIN_CLASS_NAME" value="day07.C02_AlersAccept" />
-      <option name="METHOD_NAME" value="acceptAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_DismisAlert.dismissAlertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07" />
-      <option name="MAIN_CLASS_NAME" value="day07.C03_DismisAlert" />
-      <option name="METHOD_NAME" value="dismissAlertTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C04_SendKeys.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day07.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day07" />
-      <option name="MAIN_CLASS_NAME" value="day07.C04_SendKeys" />
+      <option name="PACKAGE_NAME" value="day08" />
+      <option name="MAIN_CLASS_NAME" value="day08.C01_HandleWindows1" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -108,16 +81,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C08_Alert.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.C06" />
+      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
+      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C08_Alert" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C08_Alert.testAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
+      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C08_Alert" />
+      <option name="METHOD_NAME" value="testAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C09_Challenge_Options.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
+      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C09_Challenge_Options" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -126,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C01_HandleWindows1.test" />
+        <item itemvalue="JUnit.C09_Challenge_Options.test" />
         <item itemvalue="JUnit.C05_IFrame.test" />
-        <item itemvalue="JUnit.C06.test" />
-        <item itemvalue="JUnit.C04_SendKeys.test" />
-        <item itemvalue="JUnit.C03_DismisAlert.dismissAlertTest" />
-        <item itemvalue="JUnit.C02_AlersAccept.acceptAlert" />
+        <item itemvalue="JUnit.C08_Alert.testAlert" />
+        <item itemvalue="JUnit.C08_Alert.test" />
       </list>
     </recent_temporary>
   </component>
