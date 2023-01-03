@@ -45,8 +45,6 @@ static WebDriver driver;
        WebElement products= driver.findElement(By.xpath("//*[text()=' Products']"));
        products.click();
         //5. Hover over first product and click 'Add to cart'
-      WebElement birinciUrun=driver.findElement(By.xpath("//*[@class='fa fa-plus-square']"));
-
 
 
 

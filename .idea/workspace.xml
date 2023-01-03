@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C02_CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C02_CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C03_RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day02/C03_RadioButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C01_Dropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day06/C02_DropdownReuseable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C01_TestBaseDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C01_TestBaseDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C02_AlersAccept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C02_AlersAccept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day07/C04_SendKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C04_PromptAlert_SendKeys.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/day07/C05_IFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day07/C05_IFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day08/C01_HandleWindows1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/C01_HandleWindows1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/C01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/C01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/C02_HandleWindows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/C02_HandleWindows.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,81 +45,81 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C01_HandleWindows1.test">
-    <configuration name="C01_HandleWindows1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.P03.test">
+    <configuration name="C01_Dropdown.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.*" />
+          <option name="PATTERN" value="Selenium_Practice.practice02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day08" />
-      <option name="MAIN_CLASS_NAME" value="day08.C01_HandleWindows1" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice02" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice02.C01_Dropdown" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C12.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C12" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C05_IFrame.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="P01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.*" />
+          <option name="PATTERN" value="Selenium_Practice.practice02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day07" />
-      <option name="MAIN_CLASS_NAME" value="day07.C05_IFrame" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice02" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice02.P01" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P02.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Practice.practice02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice02" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice02.P02" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C08_Alert.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="P03.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
+          <option name="PATTERN" value="Selenium_Practice.practice02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C08_Alert" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C08_Alert.testAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C08_Alert" />
-      <option name="METHOD_NAME" value="testAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C09_Challenge_Options.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.C09_Challenge_Options" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice02" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice02.P03" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01_HandleWindows1.test" />
-        <item itemvalue="JUnit.C09_Challenge_Options.test" />
-        <item itemvalue="JUnit.C05_IFrame.test" />
-        <item itemvalue="JUnit.C08_Alert.testAlert" />
-        <item itemvalue="JUnit.C08_Alert.test" />
+        <item itemvalue="JUnit.P03.test" />
+        <item itemvalue="JUnit.P02.test" />
+        <item itemvalue="JUnit.P01.test01" />
+        <item itemvalue="JUnit.C01_Dropdown.test01" />
+        <item itemvalue="JUnit.C12.test" />
       </list>
     </recent_temporary>
   </component>

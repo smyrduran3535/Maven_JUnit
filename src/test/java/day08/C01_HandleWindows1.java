@@ -11,9 +11,11 @@ import java.util.Set;
 
 public class C01_HandleWindows1 extends TestBase {
     //1 ) Icinde oldugumuz sayfanin window handle degerini alma
-    //driver.getWindowHandle(); => istenilen pencereyi verir
-    //driver.getWindowHandles(); => tum pencereleri birlikte verir :> Set Of String verir : kull nedenimiz : pencerelerin kodlarını baska turlu alamayız
+    //driver.getWindowHandle(); => istenilen pencereyi verir :O sayfanın ID yi verir
+
+    //driver.getWindowHandles(); => tum pencereleri birlikte verir ==> Set Of String verir ; kull nedenimiz : pencerelerin kodlarını baska turlu alamayız
     //loop koyarız;w.Handle diger handle eis mi diye sorarız... bunlar selenium 3 ve 2 de ve 4 de de kull handle ve handles
+
     //2 ) Pencereler arasında geçiş yapma(switch)
     //driver.switchTo().window(sayfa1HandleDegeri);
 
@@ -22,30 +24,38 @@ public class C01_HandleWindows1 extends TestBase {
 
     //4 ) Yeni window olusturup geçiş yapma(switch)
     //driver.switchTo().newWindow(WindowType.WINDOW);
-@Test
+
+     @Test
     public void test() throws InterruptedException {
-    //ests package’inda yeni bir class olusturun: WindowHandle
+
     //https://the-internet.herokuapp.com/windows adresine gidin.
     driver.get("https://the-internet.herokuapp.com/windows");
+
+    //İLK SAYFANIN HANDLE INI İD SİNİ ALALIM:
     String window1Handle= driver.getWindowHandle();
+
     //Sayfadaki textin “Opening a new window” olduğunu doğrulayın.
-   String text=driver.findElement(By.xpath("//h3")).getText();
+    String text=driver.findElement(By.xpath("//h3")).getText();
     Assert.assertTrue(text.contains("Opening a new window"));
+
     //Sayfa başlığının(title) “The Internet” olduğunu doğrulayın.
     String title=driver.getTitle();
     String expectedTitle="The Internet";
     Assert.assertEquals(expectedTitle,title);
+
     //Click Here butonuna basın.
     driver.findElement(By.xpath("//*[@href='/windows/new']")).click();
 
     //Acilan yeni pencerenin sayfa başlığının (title) “New Window” oldugunu dogrulayin.
-    String newTitle=driver.getTitle();
-    String expectedTitleNew="New Window";
+    String newWindowTitle=driver.getTitle();
+         System.out.println("newWindowTitle = " + newWindowTitle);//bu ilk sayfayı print eder new window sayfası acılsa da=>  The Internet
+         String expectedTitleNew="New Window";
     Thread.sleep(3000);
 
 
     //BU NOKTADA 2 PENCERE ACIK VE IKINCISINE GECİS YAPMAK İSTIYORUM
-    //BUNU YAPMAK İCİN driver.getWindowHandle(); ILE TUM PENCERELERİN ID LERİNİ ALALIM
+
+    //BUNU YAPMAK İCİN driver.getWindowHandles(); ILE TUM PENCERELERİN ID LERİNİ ALALIM
     Set<String> allWindowHandles=driver.getWindowHandles();//{window1handle,window2handle}
     System.out.println(allWindowHandles);
 /*
@@ -65,15 +75,19 @@ tumPencereler.stream().filter(t->!t.equals(handle1)).forEach(t->driver.switchTo(
 String window2Handle=driver.getWindowHandle();//burda driver 2.sayfanın idsini verir
 
     //Bir önceki pencereye geri döndükten sonra sayfa başlığının “The Internet” olduğunu  doğrulayın.
+
     //1.windowsa gecis
     driver.switchTo().window(window1Handle);
-//sayfa başlığının “The Internet” olduğunu  doğrulayın.
+    //sayfa başlığının “The Internet” olduğunu  doğrulayın.
+
     Assert.assertEquals("The Internet",driver.getTitle());
     Thread.sleep(3000);
-    //        2. windowa tekrar gecelim
+    //2. windowa tekrar gecelim
+
     driver.switchTo().window(window2Handle);
     Thread.sleep(3000);
-//        1. windowa tekrar gecelim
+
+    //1. windowa tekrar gecelim
     driver.switchTo().window(window1Handle);
 
 }

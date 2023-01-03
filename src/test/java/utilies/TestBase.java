@@ -36,7 +36,14 @@ public class TestBase {
     public void tearDown() {
         // driver.quit();
     }
-        public static void switchToWindow(String targetTitle) {
+
+    //    MULTIPLE WINDOW:
+//    1 parametre alir : Gecis Yapmak Istedigim sayfanin Title
+//    ORNEK:
+//    driver.get("https://the-internet.herokuapp.com/windows");
+//    switchToWindow("New Window");
+//    switchToWindow("The Internet")
+    public static void switchToWindow(String targetTitle) {
             String origin = driver.getWindowHandle();
             for (String handle : driver.getWindowHandles()) {
                 driver.switchTo().window(handle);
