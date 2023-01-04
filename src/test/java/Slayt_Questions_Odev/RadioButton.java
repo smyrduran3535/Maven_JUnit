@@ -15,9 +15,12 @@ public class RadioButton extends TestBase {
         //- Cookies’i kabul edin
         //- “Create an Account” button’una basin
         driver.findElement(By.xpath("(//*[@role='button'])[2]")).click();
-        driver.findElement(By.id("u_2_b_Mg")).
-                sendKeys("Sumeyra", Keys.TAB,Keys.ARROW_RIGHT,"Dur",Keys.ARROW_DOWN,"1234567891",Keys.ARROW_DOWN,"12345",Keys.ENTER);
+        WebElement firstname=  driver.findElement(By.xpath("//*[@id='u_2_4_Lu']"));
+if (!firstname.isSelected()){
+    firstname.click();
+}
         //- “radio buttons” elementlerini locate edin
+
         //- Secili degilse cinsiyet butonundan size uygun olani secin
     }
 }

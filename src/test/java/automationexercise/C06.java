@@ -44,7 +44,7 @@ public class C06 {
 
         //7. Upload file
         WebElement file = driver.findElement(By.xpath("//*[@name='upload_file']"));
-        file.sendKeys("C:\\Users\\Desktop\\TestBase06_Text.txt");
+        file.sendKeys("C:\\Users\\USER\\Desktop\\a.docx");
      // WebElement upload=  driver.findElement(By.xpath("input[type='file']"));
 
         //8. Click 'Submit' button
