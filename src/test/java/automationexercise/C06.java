@@ -1,6 +1,7 @@
 package automationexercise;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -48,8 +49,14 @@ public class C06 {
      // WebElement upload=  driver.findElement(By.xpath("input[type='file']"));
 
         //8. Click 'Submit' button
+        driver.findElement(By.xpath("(//*[@type='submit'])[1]")).click();
         //9. Click OK button
+        driver.switchTo().alert().accept();
         //10. Verify success message 'Success! Your details have been submitted successfully.' is visible
+        WebElement message=driver.findElement(By.xpath("(//div[text()='Success! Your details have been submitted successfully.'])[1]"));
+      Assert.assertTrue(message.isDisplayed());
         //11. Click 'Home' button and verify that landed to home page successfully
+       WebElement home= driver.findElement(By.xpath("//i[@class='fa fa-home']"));
+       Assert.assertTrue(home.isDisplayed());
     }
 }

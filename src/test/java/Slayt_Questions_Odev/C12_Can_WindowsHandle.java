@@ -12,13 +12,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-import utilies.TestBase;
-
 import java.time.Duration;
-import java.util.List;
 import java.util.Set;
 
-public class C12_WindowsHandle {
+public class C12_Can_WindowsHandle {
     //https://demoqa.com/ url'ine gidin.
 //Alerts, Frame & Windows Butonuna click yap
 //""Please select an item from left to start practice."" yazısının görünür olduğunu doğrula

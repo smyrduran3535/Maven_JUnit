@@ -45,6 +45,7 @@ public class C03 extends TestBase {
 
             asagıdaki de list ile diger sayfaya gecme olabilir
          */
+
         List<String> windowsHandles=new ArrayList<>(driver.getWindowHandles());//click yaptıktan sonra yapıyoruz
         System.out.println("windowsHandles = " + windowsHandles);
         driver.switchTo().window(windowsHandles.get(1));//index 0 dan baslıyor.. kac pencere varsa bu yontemle yapabiliriz
@@ -56,7 +57,7 @@ public class C03 extends TestBase {
         Assert.assertTrue(sourceLabs.isDisplayed());
 
         // Source labs linkine tıklayın
-      sourceLabs.click();
+        sourceLabs.click();
 
         // Açılan sayfada sayfa başlığını yazdırınız
         List<String> windowsHandles2=new ArrayList<>(driver.getWindowHandles());//click yaptıktan sonra yapıyoruz
@@ -64,13 +65,16 @@ public class C03 extends TestBase {
         driver.switchTo().window(windowsHandles2.get(2));
         String window2=driver.getTitle();
         System.out.println("window2  = " + window2);
+
         // ilk sekmeye geri dönelim ve url'ini yazdıralım
         // driver.switchTo().window(window1); bunun yerine artık arrayimiz var
         driver.switchTo().window(windowsHandles2.get(0));
         String ilkUrl=driver.getCurrentUrl();
         System.out.println("ilkUrl = " + ilkUrl);
+
         // ilk sekmeyi kapatalım
          driver.close();//methodu acarsak hepsini kapatır
+
         //ilk sekmeyi kapatınca driver nerde dersek;
         driver.switchTo().window(windowsHandles2.get(2));//2.sayfaya gecirmek istersek boyle yaparız..
         System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());//gecirdigimiz sayfada mı diye kontrol

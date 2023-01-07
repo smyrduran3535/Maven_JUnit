@@ -4,7 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import utilies.TestBase;
 
-public class C12_HandleDropdown extends TestBase {
+public class C12_Can_HandleDropdown extends TestBase {
     @Test
     public void test01() {
         //1. http://zero.webappsecurity.com/ Adresine gidin

@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilies.TestBase;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 public class C01_HandleWindows1 extends TestBase {
@@ -91,4 +93,9 @@ String window2Handle=driver.getWindowHandle();//burda driver 2.sayfanın idsini 
     driver.switchTo().window(window1Handle);
 
 }
+    //windowNumber sıfır (0)'dan başlıyor.
+    public static void switchToWindow2(int windowNumber){
+        List<String> list = new ArrayList<>(driver.getWindowHandles());
+        driver.switchTo().window(list.get(windowNumber));
+    }
 }

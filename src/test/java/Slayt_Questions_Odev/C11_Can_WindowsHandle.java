@@ -8,7 +8,7 @@ import utilies.TestBase;
 
 import java.util.Set;
 
-public class C11_WindowsHandle extends TestBase {
+public class C11_Can_WindowsHandle extends TestBase {
     /*
        url'ye git: http://demo.guru99.com/popup.php
        ilk pencereyi al

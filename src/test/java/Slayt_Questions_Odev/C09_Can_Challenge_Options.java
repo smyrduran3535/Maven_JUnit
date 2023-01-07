@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import utilies.TestBase;
 
-public class C09_Challenge_Options extends TestBase {
+public class C09_Can_Challenge_Options extends TestBase {
     @Test
     public void test(){
 

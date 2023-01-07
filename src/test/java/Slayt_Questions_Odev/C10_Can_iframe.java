@@ -11,7 +11,7 @@ import java.util.List;
 
 import static junit.framework.TestCase.assertTrue;
 
-public class C10_iframe extends TestBase {
+public class C10_Can_iframe extends TestBase {
     @Test
     public void test(){
 //go to web site : https://www.jqueryscript.net/demo/Easy-iFrame-based-Twitter-Emoji-Picker-Plugin-jQuery-Emoojis/
