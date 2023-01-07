@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day03/C03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day03/C03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C09_Challenge_Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C09_Can_Challenge_Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C10_iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C10_Can_iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C11_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C11_Can_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_HandleDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_Can_HandleDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_Can_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day08/C01_HandleWindows1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day08/C01_HandleWindows1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_FileExist.isExistTest">
-    <configuration name="C01_Actions05.keyboardActions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day11" />
-      <option name="MAIN_CLASS_NAME" value="day11.C01_Actions05" />
-      <option name="METHOD_NAME" value="keyboardActions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.C03_ActionsClassHomeWork.test01">
     <configuration name="C02_Faker01.javaFakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
@@ -76,6 +50,22 @@
       <option name="PACKAGE_NAME" value="day11" />
       <option name="MAIN_CLASS_NAME" value="day11.C02_Faker01" />
       <option name="METHOD_NAME" value="javaFakerTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ActionsClassHomeWork.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="homework" />
+      <option name="MAIN_CLASS_NAME" value="homework.C03_ActionsClassHomeWork" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C03_ActionsClassHomeWork.test01" />
         <item itemvalue="JUnit.C03_FileExist.isExistTest" />
         <item itemvalue="JUnit.C04_FileDownloadTest.fileDownloadTest" />
         <item itemvalue="JUnit.C03_FileExist" />
         <item itemvalue="JUnit.C02_Faker01.javaFakerTest" />
-        <item itemvalue="JUnit.C01_Actions05.keyboardActions" />
       </list>
     </recent_temporary>
   </component>
