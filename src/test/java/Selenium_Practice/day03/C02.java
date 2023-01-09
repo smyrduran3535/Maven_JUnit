@@ -12,11 +12,14 @@ import java.util.List;
 public class C02 extends TestBase {
     @Test
     public void test() throws InterruptedException {
-//- https://html.com/tags/iframe/ adresine gidiniz
+
+       //- https://html.com/tags/iframe/ adresine gidiniz
         driver.get("https://html.com/tags/iframe/");
        String ilkWindow= driver.getWindowHandle();
+
         //    - youtube videosunu çalıştırınız
         WebElement iframe= driver.findElement(By.xpath("//iframe[@frameborder='0']"));
+
         ////*[@class="render"]/iframe ile de alabiliriz
         driver.switchTo().frame(iframe);
         driver.findElement(By.cssSelector("button[aria-label='Oynat']")).click();
@@ -47,21 +50,8 @@ public class C02 extends TestBase {
         driver.close();
 
         //    - Sonra diğer sekmeyide kapatalım
+
         //TestBase deki @After metodunu calıstıralım acıp
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }

@@ -21,7 +21,7 @@ public class C01_Actions05 extends TestBase {
         // yani biz ne gonderirsek onu yazar; farklı tuslara basamayız.acsionlarda 1den fazla parametre alınabilir
         Actions actions = new Actions(driver);
         actions
-                .keyDown(aramaKutusu,Keys.SHIFT)//arama kutusunun ustunde Shift bas
+                .keyDown(aramaKutusu,Keys.SHIFT)//arama kutusunun ustunde Shift bas  < keyDown:tusa bas demek > shift :buyuk aynı;kck;byk yazıyor
                 .sendKeys("iphone x fiyatlari")//shifte basiliyken yaz
                 .keyUp(aramaKutusu,Keys.SHIFT)//shift'e basmayi birak(realize ile benzer click de kullanılır)
                 .sendKeys(" cok pahali" + Keys.ENTER)//normal halde yaz ve Enter tusuna bas
