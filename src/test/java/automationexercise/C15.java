@@ -24,7 +24,7 @@ public class C15 extends TestBase {
 
         //5. Fill all details in Signup and create account
         WebElement name = driver.findElement(By.name("name"));
-        name.sendKeys("Sevinc2222222222", Keys.TAB, "sevinc22222222222techpro@gmail.com", Keys.ENTER);
+        name.sendKeys("Sevinc333", Keys.TAB, "sevinc333techpro@gmail.com", Keys.ENTER);
         WebElement radioButton = driver.findElement(By.id("id_gender1"));
         radioButton.sendKeys(Keys.SPACE,Keys.TAB,Keys.TAB,"12345",Keys.TAB,Keys.LEFT_CONTROL,Keys.SPACE,Keys.ARROW_DOWN,Keys.ARROW_DOWN,Keys.ENTER);
         WebElement months=driver.findElement(By.id("months"));
@@ -78,7 +78,8 @@ public class C15 extends TestBase {
         WebElement messageDisplay=driver.findElement(By.xpath("//*[text()='Congratulations! Your order has been confirmed!']"));
         Assert.assertTrue(messageDisplay.isDisplayed());
         //17. Click 'Delete Account' button
-        driver.findElement(By.xpath("//a[@href='/delete_account']")).click();
+        WebElement delete=driver.findElement(By.xpath("//a[normalize-space()='Delete Account']"));
+        delete.click();
         //18. Verify 'ACCOUNT DELETED!' and click 'Continue' button
         driver.findElement(By.xpath("//a[@data-qa='continue-button']")).click();
     }

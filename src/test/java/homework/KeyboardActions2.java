@@ -25,9 +25,14 @@ public class KeyboardActions2 extends TestBase {
         playTusu.click();
 
         //videoyu calistirdiginizi test edin
-        WebElement videoCalistiMi=driver.findElement(By.id("movie_player"));
-        System.out.println(videoCalistiMi.isDisplayed());
+         WebElement calistiMi= driver.findElement(By.xpath("//a[@class='ytp-youtube-button ytp-button yt-uix-sessionlink']"));
+      Assert.assertTrue(calistiMi.isDisplayed());
 
 
+        //Powerful, but easy to misuse yazisinin gorunur oldugunu test edin
+        driver.switchTo().parentFrame();
+      WebElement yazi= driver.findElement(By.id("Powerful_but_easy_to_misuse"));
+
+        Assert.assertTrue(yazi.isDisplayed());
     }
 }

@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tekrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tekrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12/C03_FluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/C03_FluentWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework/KeyboardActions2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/KeyboardActions2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,33 +40,33 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C17.test">
-    <configuration name="C13.VerifyProductQuantityInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_iframe.test">
+    <configuration name="C01_iframe.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="Selenium_Practice.practice03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.C13" />
-      <option name="METHOD_NAME" value="VerifyProductQuantityInCart" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice03" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice03.C01_iframe" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_iframe.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="Selenium_Practice.practice03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.C14" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.practice03" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.practice03.C02_iframe" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,7 +89,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C16.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C18.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
@@ -102,24 +98,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.C16" />
-      <option name="METHOD_NAME" value="test16" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C18" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C17.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyboardActions2.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="automationexercise.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="automationexercise" />
-      <option name="MAIN_CLASS_NAME" value="automationexercise.C17" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="homework" />
+      <option name="MAIN_CLASS_NAME" value="homework.KeyboardActions2" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C17.test" />
-        <item itemvalue="JUnit.C16.test16" />
+        <item itemvalue="JUnit.C02_iframe.test" />
+        <item itemvalue="JUnit.C01_iframe.test" />
+        <item itemvalue="JUnit.KeyboardActions2.test01" />
+        <item itemvalue="JUnit.C18.test" />
         <item itemvalue="JUnit.C15.test" />
-        <item itemvalue="JUnit.C14.test" />
-        <item itemvalue="JUnit.C13.VerifyProductQuantityInCart" />
       </list>
     </recent_temporary>
   </component>
