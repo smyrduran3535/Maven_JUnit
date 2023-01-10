@@ -42,10 +42,11 @@ public class C02_ExplicitWait extends TestBase {
         driver.findElement(By.xpath("//div[@id='start']//button")).click();
 
 //Hello World! Yazının sitede oldugunu test et
-        /*
-    WebElement helloWorld= driver.findElement(By.xpath("//div[@id='finish']//h4"));
-    Assert.assertEquals("Hello World!",helloWorld);//impicitly wait bu sorunu cozmedi
-         */
+                             /*
+                              WebElement helloWorld= driver.findElement(By.xpath("//div[@id='finish']//h4"));
+                              Assert.assertEquals("Hello World!",helloWorld);//impicitly wait bu sorunu cozmedi cunku eleman gizlenmis,
+                              bizim gozle goremedigimiz seyleri selenyumda goremiyor
+                              */
 // COZUM: Explicity waitte cunku iml.wait; elemanı bulamadı eleman gizli
         //1. WebDriverWait objesi olustur
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));

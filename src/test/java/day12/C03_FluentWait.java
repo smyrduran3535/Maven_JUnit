@@ -19,12 +19,13 @@ public class C03_FluentWait extends TestBase {
 //Start buttonuna tıkla
         driver.findElement(By.xpath("//div[@id='start']//button")).click();
 //Hello World! Yazının sitede oldugunu test et
+
         //ADIMLAR :1 Fluent Wait icin obje olustur
         Wait<WebDriver> wait=new FluentWait<>(driver).
                 withTimeout(Duration.ofSeconds(30))//max.bekleme suresi.
-                .pollingEvery(Duration.ofSeconds(3))//fluentwaiti farklı yapan bu. deneme aralıklarıdır
-                .withMessage("IGNORE EXCEPTION")//opsiyonel olarak yani mecburi degil...
-        .ignoring(NoSuchMethodError.class);//exceptionı yakala handle et,zorunlu degil.
+                .pollingEvery(Duration.ofSeconds(3))//fluentwaiti farklı yapan bu. deneme aralıklarıdır : (su kadar sure bekle sonra bi daha dene demek)
+                .withMessage("IGNORE EXCEPTION")//mesaj yazdırabilirim..opsiyonel olarak yani mecburi degil...
+                .ignoring(NoSuchMethodError.class);//exceptionı yakala handle et yani imha et umursama ,zorunlu degil.
 
         //wait objesini kullanarak bekleme problemini coz
     WebElement helloWorldElement=wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='finish']//h4")));

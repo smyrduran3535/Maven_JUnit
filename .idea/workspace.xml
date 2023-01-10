@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day03/C02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day03/C02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tekrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tekrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day11/C01_Actions05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day11/C01_Actions05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/automationexercise/C13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/automationexercise/C13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day12/C03_FluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/C03_FluentWait.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,76 +44,82 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Tekrar.name">
-    <configuration name="C01_FileUPLoad.fileUpLoading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C17.test">
+    <configuration name="C13.VerifyProductQuantityInCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.C01_FileUPLoad" />
-      <option name="METHOD_NAME" value="fileUpLoading" />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C13" />
+      <option name="METHOD_NAME" value="VerifyProductQuantityInCart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_ExplicitWait.explicitWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C14.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.C02_ExplicitWait" />
-      <option name="METHOD_NAME" value="explicitWaitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_FluentWait.fluentWaitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day12" />
-      <option name="MAIN_CLASS_NAME" value="day12.C03_FluentWait" />
-      <option name="METHOD_NAME" value="fluentWaitTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FakerWorking.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.FakerWorking" />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C14" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tekrar.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C15.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tekrar" />
-      <option name="METHOD_NAME" value="name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C15" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C16.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C16" />
+      <option name="METHOD_NAME" value="test16" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C17.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C17" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tekrar.name" />
-        <item itemvalue="JUnit.C03_FluentWait.fluentWaitTest" />
-        <item itemvalue="JUnit.C02_ExplicitWait.explicitWaitTest" />
-        <item itemvalue="JUnit.C01_FileUPLoad.fileUpLoading" />
-        <item itemvalue="JUnit.FakerWorking.test" />
+        <item itemvalue="JUnit.C17.test" />
+        <item itemvalue="JUnit.C16.test16" />
+        <item itemvalue="JUnit.C15.test" />
+        <item itemvalue="JUnit.C14.test" />
+        <item itemvalue="JUnit.C13.VerifyProductQuantityInCart" />
       </list>
     </recent_temporary>
   </component>

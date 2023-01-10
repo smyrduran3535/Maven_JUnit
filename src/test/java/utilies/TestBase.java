@@ -142,7 +142,7 @@ public class TestBase {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(locator));
     }
-
+    //cok kullanılmaz
     public static void clickWithTimeOut(WebElement element, int timeout) {
         for (int i = 0; i < timeout; i++) {
             try {
@@ -154,7 +154,7 @@ public class TestBase {
         }
     }
 
-    //    This can be used when a new page opens
+    //    This can be used when a new page opens// yeni sayfaya gecislerde kullanılabilir
     public static void waitForPageToLoad(long timeout) {
         ExpectedCondition<Boolean> expectation = new ExpectedCondition<Boolean>() {
             public Boolean apply(WebDriver driver) {

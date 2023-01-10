@@ -48,6 +48,12 @@
         <version>1.0.2</version>
     </dependency>
 
+    <!-- https://mvnrepository.com/artifact/org.kaazing/robot.junit -->
+    <dependency>
+        <groupId>org.kaazing</groupId>
+        <artifactId>robot.junit</artifactId>
+        <version>2.0.0-alpha-1</version>
+    </dependency>
 
 
 
