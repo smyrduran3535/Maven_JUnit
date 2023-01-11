@@ -45,7 +45,7 @@ public class TestBase {
     @After
     public void tearDown() {
         waitFor(5);
-        driver.quit();
+        //driver.quit();
     }
 
     //    MULTIPLE WINDOW:

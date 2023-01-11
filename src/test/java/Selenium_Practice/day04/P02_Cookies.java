@@ -1,4 +1,4 @@
-package day09;
+package Selenium_Practice.day04;
 
 import org.junit.Test;
 import org.openqa.selenium.Cookie;
@@ -6,9 +6,17 @@ import utilies.TestBase;
 
 import java.util.Set;
 
-public class C04_Cookies extends TestBase {
+public class P02_Cookies extends TestBase {
+    /*
+                                    Cookies(Çerezler)
+        "Cookie" ler, bir web sitesi tarafından tarayıcıya depolanan küçük veri parçacıklarıdır.
+    Tarayıcı, herhangi bir web sayfasına gittiğinde, o sayfanın cookie'lerini saklar ve
+    daha sonra o sayfaya geri döndüğünde, o cookie'leri tekrar gönderir. Bu sayede, web sitesi,
+    kullanıcının daha önce o sayfada ne yaptığını veya ne seçtiğini hatırlayabilir.
+     */
+
     @Test
-    public void handleCookiesTest() throws InterruptedException {
+    public void test() throws InterruptedException {
         //Techproeducation adresine gidiniz
         driver.get("https://techproeducation.com");
         Thread.sleep(5000);
