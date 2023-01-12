@@ -1,0 +1,102 @@
+ //Ne tur beklemeler kullanirsin?
+    //Hangi beklemeyi tercih edersin?
+    //Neden bu beklemeyi tercih ediyorsun?
+    //Senkronizasyon problemini nasil cozersin?
+
+
+    //Interview Questions
+    //Tell me 5 exception that you get.-5 adet selenium da aldigin exceptions dan bahset.
+    //What type of exceptions do you get in selenium? - Seleniumda ki align exceptions tiplerinden bahset
+    //What is your solution?-Cozum ne?
+    //What type of waits do you use?- Hangi resit wait kullanirsin?
+    //Which wait do you prefer?- Hangi wait tercih edersin?
+    //Why do you prefer that wait?- Neden onu tercih edersin?
+    //How to you resolve synronization issue?-Senkronizasyon problemini nasil cozersin?
+
+                                 NoSuchElementException
+     -Neden bu hatayı alırsın:
+    yanlıs locater,
+    Popup,yeni pencere,iframe
+    Sayfa dolmada problemler ve yavaslamalar
+    Saklı olan elementler
+                                        COZUM:
+    Locatarin dogrulugunu tekrar kontrol et
+    Mnuel test ile iframe ,yeni pencere ,alert... gibi elemenrlerin varlıgını kontrol et
+    Bekleme problemi olabilir.impicit wait bekleme suresini cozmuyor.Bu durumda explicit wait yada fluent wait kullanilabilir
+
+    //TimeOutException
+    excilipWait kullanıldıgı zaman ve eleman bulunamayınca alınır alınır .
+    implicipWait kullandıgımızda ;"NoSuchElementException" bunu alırız
+    excilipWait kullanıp yanlıs locater olursa Timeout alırız hata olarak;
+    excilipWait kullanıp sure yeterli degilse yine Timeout Exception alırız
+    excilipWait kullanıp sure yeterli ama iframe var : timeout alırız
+    implicitwait de TimeOutException alınmaz hersey alınabilir.
+
+    COZUM
+
+    //NullPointerException
+    bir degiskenleri olusturup intantiate(deger atama yani baslangıc yeri belirleme) etmedigimiz zaman alırız..."new" kullanmadıgımız zaman alırız...
+    Webdriver driver;suan biseye esit olmadigi icin nullpoint alırız
+    Webdriver driver=new ChromeDriver(); oldugu zaman driver gidecegi gorur ve nullpointexc ALMAYIZ
+    --ister sınıf seviyesinde istersek de login seviyesinde kullanılırız--
+    //InvalidSelectorException
+
+                             ***StaleElementReferenceException****
+    Stale element=aski,kullanilamaz durumdaikullanım artık elverisli degil
+    sayfayı yeniledigimizde(refresh())
+    sayfada ileri geri gittigimizde
+                COZUM:
+    Elementi tekrar bulmak
+
+    //InvalidElementStateException
+    //WebDriverException
+    ne zaman alırız? bazen driver versiyonları ve browser versiyonları ayni veya yakın olmadıgında alınır
+    locaterlarla hicbir alakası yoktur..
+    versiyonlar eskşi oldugunda da alınır..
+    driver ı kapattıktan sonra yekrar kulanmak istedigimiz durumlarda webdriver exc. alinir
+                  COZUM
+                  bizim framework dizaynının guzel kurulmus olması gerekir
+                  ornegin driver sinifinda birden fazla driver.quit() kullanılmamalı
+    //ElementNotInteractableException
+    //ElementClickInterceptedException
+    //InvalidArgumentException
+    //JavascriptException
+    //RemoteDriverServerException
+
+
+               *****Seleniumda aldigin 5 exception
+               Null pointer, no such element, time out, slale element reference, web driver
+               Genel olarak exception aldiginda bozum yolun nedir?
+               Hata mesajini oku
+               Genel olarak zamanlama, yanlis locator, iframe hataları olabiliyo
+               Hata mesajina gore exception I cozdukden sonra tekrar kodumu calistirim
+
+               ****Selniumda kullandigin waitler nelerdir>
+               Implicit yada explicit yada fluent
+
+               ****Hangi waiti tercih edersin?
+               Test Base (Driver sinifinda) implicit wait kullanıyorum. Cogu problemi bozuyor
+               Cozemedigi durumlarda explicit wait kullanıyorum.
+
+               *****Neden Explicit wait?
+               Explicit wait element e ouzel yazilabilir. Yerel cozum gerektiğinde explicit wait I kullanmak zorundayiz.
+               Senkronize(bekleme) problemlerini nasıl çözersin
+               Selenium waitlerini kullanarak. Implicit wait driver im da var, ama yetmedigi durumlarda explicit wait kullanirim.
+               Bu yüzden ReusableMethod sinifimda tekrar tekrar kullanabileceğimiz explicit wait method lari var.
+               Kolaylıkla explicit wait ile bekleme problemlerini cozebuliyoruz.
+
+               Tell me 5 exception that you get/What type of exceptions do you get in selenium?
+               Null pointer, no such element, time out, slate element reference, web driver
+               What is your solution?
+               Read the error message and learn what is the error and where it is.
+               In general, error happens because of the timing issue, wrong locator, or iframe/windows/alerts
+               Each error has specific solutions but in general, I debug my code, and do some research then execute the code one more time after the fix.
+               What type of waits do you use?
+               I use implicit or explicit wait
+               Which wait do you prefer?
+               Explicit wait works better in some cases. When I use explicit wait, and still see timeout exception, then then there can be other issues such as incorrect locators.
+               Why do you prefer that wait?
+               I already have implicit wait in my Driver class, but I prefer explicit wait when I need to use an expected condition such as element is not visible.
+               How do you resolve synronization issue?
+               I use implicit or explicit wait. In my driver class, I already have implicit wait, that handles most of the wait issues,
+               but when it is not enough than I use explicit wait.

@@ -31,6 +31,8 @@ public class C04_ActionMoveToElement extends TestBase {
         Select select=new Select(ddm);
         select.selectByVisibleText("Turkey (Türkiye)");
 
+        //Drop down opsiyon listesi 'Go to website' butonuna basmamıza engel oldugu icin
+        //herhangi bir yere clic yapıp drop down opsiyon listesinin toparlanmasını sagladık
         driver.findElement(By.xpath("//span[text()='Changing country/region website']")).click();
         // boş bir yere click yaptık dropdown kapansın diye
 
