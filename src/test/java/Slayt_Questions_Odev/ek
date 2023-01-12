@@ -1,0 +1,22 @@
+  public void detayli_Arama_Adres(String il,String ilce,String mahalle){
+        WebElement adresIl = driver.findElement(By.xpath("(//*[@class='faceted-select'])[1]"));
+        adresIl.click();
+        WebElement ilSec = driver.findElement(By.xpath("//input[@placeholder='İl']"));
+        ilSec.sendKeys(il);
+        driver.findElement(By.xpath("//a[contains(text(),'" + il + "')]")).click();
+
+        WebElement adresIlce=driver.findElement(By.xpath("(//*[@class='faceted-select'])[2]"));
+        adresIlce.click();
+        WebElement ilceSec = driver.findElement(By.xpath("//input[@placeholder='İlçe']"));
+        ilceSec.sendKeys(ilce);
+        driver.findElement(By.xpath("//a[contains(text(),'" + ilce + "')]")).click();
+        driver.findElement(By.xpath("//a[@class='collapse-pane']")).click();
+
+        WebElement adresMah=driver.findElement(By.xpath("(//*[@class='faceted-select'])[2]"));
+        adresMah.click();
+        WebElement mahSec = driver.findElement(By.xpath("//input[@placeholder='Semt / Mahalle']"));
+        mahSec.sendKeys(mahalle);
+        driver.findElement(By.xpath("//a[normalize-space()='" + mahalle + "']")).click();
+        driver.findElement(By.xpath("//a[@class='collapse-pane']")).click();
+
+    }

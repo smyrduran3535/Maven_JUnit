@@ -13,35 +13,40 @@ import java.util.List;
 
 public class P06_Actions extends TestBase {
     @Test
-    public void test() {
+    public void test() throws InterruptedException {
         //https://demoqa.com/ url'ine gidin.
         driver.get("https://demoqa.com/");
         //Alerts, Frame & Windows Butonuna click yap
-        WebElement box = driver.findElement(By.xpath("(//*[@class='card-up'])[6]"));
+        WebElement kutu = driver.findElement(By.xpath("(//*[@class='card-up'])[6]"));
         //clickWithText("div.card-body>h5","Alerts, Frame & Windows");
         Actions actions = new Actions(driver);
-        actions.moveToElement(box).perform();
-        box.click();
+        //actions.moveToElement(kutu).perform();
+        actions.sendKeys(Keys.PAGE_DOWN).perform();
+        driver.findElement(By.xpath("(//*[@class='card mt-4 top-card'])[3]")).click();
         //""Please select an item from left to start practice."" yazısının görünür olduğunu doğrula
-        WebElement text = driver.findElement(By.xpath("//*[text()='Please select an item from left to start practice.']"));
-        Assert.assertTrue(text.isDisplayed());
+        WebElement yazi = driver.findElement(By.xpath("//*[text()='Please select an item from left to start practice.']"));
+        Assert.assertTrue(yazi.isDisplayed());
         //Sol'da açılan Menu den ""Browser Windows"" butonuna click yap
-        driver.findElement(By.xpath("(//*[@id='item-0'])[3]")).click();
+        driver.findElement(By.xpath("//*[text()='Browser Windows']")).click();
+        Thread.sleep(3000);
+
         //New Tab butonunun görünür olduğunu doğrula
-        WebElement newTab = driver.findElement(By.id("tabButton"));
-        Assert.assertTrue(newTab.isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='New Tab']")).isDisplayed());
+
         //New Tab butonuna click yap
-        String firstTab = driver.getWindowHandle();
-        newTab.click();
+        driver.findElement(By.xpath("//*[text()='New Tab']")).click();
+
         //Açılan yeni Tab da ""This is a sample page"" yazısının görünür olduğunu doğrula
         List<String> allWindow = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(allWindow.get(1));
-        WebElement samplePage = driver.findElement(By.xpath("//*[@id='sampleHeading']"));
-        Assert.assertTrue(samplePage.isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//h1")).isDisplayed());
+
         //İlk Tab'a geri dön
         driver.switchTo().window(allWindow.get(0));
+
         ////New Tab butonunun görünür olduğunu doğrula
-        Assert.assertTrue(newTab.isDisplayed());
+        Assert.assertTrue(driver.findElement(By.xpath("//*[text()='New Tab']")).isDisplayed());
+    }
     }
 
-}
+

@@ -14,7 +14,7 @@ public class P05_Actions extends TestBase {
         //        -Sayfanın altındaki about us bölümü altındaki fleet linkine tıklayalım
        WebElement aboutUs=driver.findElement(By.xpath("//*[.='About Us']"));
        Actions actions=new Actions(driver);
-     actions.moveToElement(aboutUs).perform();//mause u elementin uzerine goturuyor
+       actions.moveToElement(aboutUs).perform();//mause u elementin uzerine goturuyor
             //bunu yapmadan fleet e click yaptırmaz bazı siiteler..actions classı bunucozuyor
         driver.findElement(By.xpath("//*[text()='Fleet']")).click();
         //-Sayfa başlığının Fleet içerdiğini test edelim
