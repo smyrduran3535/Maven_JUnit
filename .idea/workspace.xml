@@ -7,8 +7,8 @@
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/Day13_Challenge_Sahibinden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/Day13_Challenge_Sahibinden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day14/C04_ExtentReports.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day14/C04_ExtentReports.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/day15/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15/homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,71 +43,55 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.C03_Screeshot2.screenshotOfSfesificElementstest">
-    <configuration name="C01_screenShot1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C02_WebTables1.test">
+    <configuration name="C01_ExtentReport2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.C01_screenShot1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_screenShot1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.C02_screenShot1" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C03_Screeshot2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day14.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.C03_Screeshot2" />
+      <option name="PACKAGE_NAME" value="day15" />
+      <option name="MAIN_CLASS_NAME" value="day15.C01_ExtentReport2" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Screeshot2.screenshotOfSfesificElementstest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_ExtentReport2.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day14.*" />
+          <option name="PATTERN" value="day15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.C03_Screeshot2" />
-      <option name="METHOD_NAME" value="screenshotOfSfesificElementstest" />
+      <option name="PACKAGE_NAME" value="day15" />
+      <option name="MAIN_CLASS_NAME" value="day15.C01_ExtentReport2" />
+      <option name="METHOD_NAME" value="extentReportsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_Screeshot2.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_WebTables1.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day15" />
+      <option name="MAIN_CLASS_NAME" value="day15.C02_WebTables1" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_ExtentReports.extentReportsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +100,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day14" />
-      <option name="MAIN_CLASS_NAME" value="day14.C03_Screeshot2" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="day14.C04_ExtentReports" />
+      <option name="METHOD_NAME" value="extentReportsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Slayt_iframe02.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
+      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.Slayt_iframe02" />
+      <option name="METHOD_NAME" value="name" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C03_Screeshot2.screenshotOfSfesificElementstest" />
-        <item itemvalue="JUnit.C03_Screeshot2" />
-        <item itemvalue="JUnit.C03_Screeshot2.test" />
-        <item itemvalue="JUnit.C02_screenShot1.test" />
-        <item itemvalue="JUnit.C01_screenShot1.test" />
+        <item itemvalue="JUnit.C02_WebTables1.test" />
+        <item itemvalue="JUnit.C01_ExtentReport2.extentReportsTest" />
+        <item itemvalue="JUnit.C01_ExtentReport2" />
+        <item itemvalue="JUnit.C04_ExtentReports.extentReportsTest" />
+        <item itemvalue="JUnit.Slayt_iframe02.name" />
       </list>
     </recent_temporary>
   </component>
