@@ -17,6 +17,9 @@ public class Day13_Challenge_Sahibinden extends TestBase {
          //anasayfada oldugunuzu dogrulayin
         WebElement page=driver.findElement(By.xpath("//a[@title='sahibinden.com anasayfasına dön']"));
         Assert.assertTrue(page.isDisplayed());
+        if (driver.findElement(By.xpath("//*[@id='onetrust-reject-all-handler']")).isDisplayed()) {
+            driver.findElement(By.xpath("//*[@id='onetrust-reject-all-handler']")).click();
+        }
          //detayli arama tiklayin
         driver.findElement(By.xpath("//a[@title='Detaylı Arama']")).click();
          //detayli arama sayfasina geldiginizi dogrulatin
@@ -25,19 +28,22 @@ public class Day13_Challenge_Sahibinden extends TestBase {
          //emlak-konut-satilik seceneklerini secip
         //altta cikan butun filtre seceneklerine en az bir filtre degeri girip en sonundaki arama yap tusuna tiklayin
         //filtreler için sağıdakilere benzer methodlar oluşturun
-     driver.findElement((By.cssSelector("span[href='/arama/detayli?category=3518']"))).click();
-     driver.findElement(By.xpath("//span[@href='/arama/detayli?category=3613']")).click();
-     driver.findElement(By.xpath("//span[@href='/arama/detayli?category=16623']")).click();
-     driver.findElement(By.xpath("//span[@href='/arama/detayli?category=16640']")).click();
-
-
+        driver.findElement(By.xpath("(//span[text()='Emlak'])[1]")).click();
+        waitFor(1);
+        driver.findElement(By.xpath("//span[text()='Konut']")).click();
+        waitFor(1);
+        driver.findElement(By.xpath("//span[text()='Satılık']")).click();
+        waitFor(1);
+        driver.findElement(By.xpath("//span[text()='Daire']")).click();
                //detayli_Arama_Adres("izmir", "bayrakli", "adalet mah.");
                //detayli_Arama_Fiyat("4.000","4.000.000","USD");
                //detayli_Arama_Brut("180","400");
                //detayli_Arama_Oda_Sayisi("10 Üzeri");//0-43 arasi
 
-        detayli_Arama_Adres("izmir", "bayrakli", "adalet mah.");
+        detayli_Arama_Adres("İzmir", "Bayrakli", "Adalet mah.");
         detayli_Arama_Fiyat("4.000","4.000.000","USD");
+        scrollDownActions();
+        scrollDownActions();
         detayli_Arama_Brut("180","400");
         detayli_Arama_Oda_Sayisi("4");//0-43 arasi
 
@@ -46,10 +52,10 @@ public class Day13_Challenge_Sahibinden extends TestBase {
                //...
         //cikan sonuc sayisini veya sonuc yoksa bunu bildiren yaziyi konsolda yazdirin
 
-        Actions actions=new Actions(driver);
+
         WebElement aramaYap=driver.findElement(By.xpath("//button[@value='Arama Yap']"));
-        actions.moveToElement(aramaYap).perform();
-        actions.click(aramaYap).perform();
+
+       doubleClick(aramaYap);
         WebElement sonucYazi= driver.findElement(By.xpath("//div[@class='mtmdef pvmdef phmdef clearfix searchFooter']"));
     Assert.assertTrue(sonucYazi.isDisplayed());
         System.out.println("sonucYazi = " + sonucYazi);
