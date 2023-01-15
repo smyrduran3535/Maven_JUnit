@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/C07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C02_Can_Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C02_Can_Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C04_Can_TutorialsNinja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C04_Can_TutorialsNinja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C04_Can_TutorialsNinjaDiffAnswr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C04_Can_TutorialsNinjaDiffAnswr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C05_Can_Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C05_Can_Example.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C07_DropDownAmazon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C07_DropDownAmazon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C09_Can_Challenge_Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C09_Can_Challenge_Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C10_Can_iframe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C10_Can_iframe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C11_Can_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C11_Can_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_Can_HandleDropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C12_Can_HandleDropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_Can_WindowsHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C12_Can_WindowsHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C12_WindowsHandleFarkliCozm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C12_WindowsHandleFarkliCozm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C15_Challenge_WindowHandleDrang_And_Drop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C15_Challenge_WindowHandleDrang_And_Drop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/C16_Can_Challenge_HoverOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/C16_Can_Challenge_HoverOver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/Day13_Challenge_Sahibinden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/Day13_Challenge_Sahibinden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/Slayt_iframe02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Slayt_Questions_Odev/Slayt_iframe02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15/homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15/homework.java" afterDir="false" />
-    </list>
+    <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
