@@ -1,4 +1,4 @@
-package Slayt_Questions_Odev;
+package S_Challenge;
 
 import org.junit.Test;
 import org.openqa.selenium.By;

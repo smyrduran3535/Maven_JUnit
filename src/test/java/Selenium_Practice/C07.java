@@ -47,8 +47,6 @@ public class C07 {
             driver.navigate().back();//click yapıp sayfaya tıklar sonra geri gelip digerine tıklar
             Thread.sleep(2000);
         }
-
-
     }
     @AfterClass
     public static void afterClass() throws Exception {
