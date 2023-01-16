@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="" />
+    <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,72 +45,72 @@
       <recent name="C:\Users\USER\IdeaProjects\com.B103Maven_Junit\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_WriteExcel.writeExcelTest">
-    <configuration name="C01_ExcellRead.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WebTable.test">
+    <configuration name="C01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day16.*" />
+          <option name="PATTERN" value="automationtesting.homepage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day16" />
-      <option name="MAIN_CLASS_NAME" value="day16.C01_ExcellRead" />
-      <option name="METHOD_NAME" value="readExcelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_WriteExcel.writeExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day16.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day16" />
-      <option name="MAIN_CLASS_NAME" value="day16.C02_WriteExcel" />
-      <option name="METHOD_NAME" value="writeExcelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SlaytAction.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Slayt_Questions_Odev.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.SlaytAction" />
+      <option name="PACKAGE_NAME" value="automationtesting.homepage" />
+      <option name="MAIN_CLASS_NAME" value="automationtesting.homepage.C01" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Slayt_iframe02.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C24.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="S_Challenge.*" />
+          <option name="PATTERN" value="automationexercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.Slayt_iframe02" />
-      <option name="METHOD_NAME" value="name" />
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C24" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Slayt_windowHandle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C25.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C25" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C26.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="automationexercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="automationexercise" />
+      <option name="MAIN_CLASS_NAME" value="automationexercise.C26" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebTable.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Slayt_Questions_Odev" />
-      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.Slayt_windowHandle" />
+      <option name="MAIN_CLASS_NAME" value="Slayt_Questions_Odev.WebTable" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -126,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_WriteExcel.writeExcelTest" />
-        <item itemvalue="JUnit.C01_ExcellRead.readExcelTest" />
-        <item itemvalue="JUnit.SlaytAction.test" />
-        <item itemvalue="JUnit.Slayt_windowHandle.test" />
-        <item itemvalue="JUnit.Slayt_iframe02.name" />
+        <item itemvalue="JUnit.WebTable.test" />
+        <item itemvalue="JUnit.C01.test" />
+        <item itemvalue="JUnit.C26.test" />
+        <item itemvalue="JUnit.C25.test" />
+        <item itemvalue="JUnit.C24.test" />
       </list>
     </recent_temporary>
   </component>
