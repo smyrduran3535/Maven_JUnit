@@ -28,5 +28,6 @@ public class C03_Screeshot2 extends TestBase {
         String path = System.getProperty("user.dir")+"/test-output/EkranGoruntuleri/"+currentDate+"image.png";
         FileUtils.copyFile(image,new File(path));
         takeScreenshotOfElement(driver.findElement(By.xpath("//div[@data-id='898ce2e']")));
+
     }
 }

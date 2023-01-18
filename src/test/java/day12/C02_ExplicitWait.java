@@ -29,7 +29,7 @@ public class C02_ExplicitWait extends TestBase {
     //impicitly wait : Sayfa üzerindeki tüm öğeler için zaman aşımı = 1-driver.manage().timeouts()
     //impicitly wait,global calısır. 1 kere kullanırsın her yerde calısır.
     //explicitly wait  : belirli elementler için zaman aşımı :1-WebdriverWait , 2-FluentWait
-    //explicitly wait ; yereldir.. impicitly wait calısmadıgı durumlarda kulanırız daha guzel calısır.
+    //explicitly wait ; yereldir. impicitly wait calısmadıgı durumlarda kulanırız daha guzel calısır.
     //explicitly wait  : belirli elementler için kullanılır.imlicitly wait calısıyorsa bu kullnılmaz
     //WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("..."))); bu cok guzel explicit icin
     //FARKI ONEM KATAN su;elemanı bulur bulmaz return eder yani fineElementin gorevini de yapar.
