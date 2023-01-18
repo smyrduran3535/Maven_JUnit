@@ -3,9 +3,11 @@ package Slayt_Questions_Odev;
 import org.junit.Test;
 import utilies.TestBase;
 
-public class Excell extends TestBase {
+public class Excell {
     @Test
     public void test() {
+
+
         //- 1.satirdaki 2.hucreye gidelim ve yazdiralim
         //- 1.satirdaki 2.hucreyi bir string degiskene atayalim ve yazdiralim
         //- 2.satir 4.cell’in afganistan’in baskenti oldugunu test edelim

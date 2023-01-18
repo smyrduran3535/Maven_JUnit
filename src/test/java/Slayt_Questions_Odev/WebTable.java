@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class WebTable extends TestBase {
+
+
     @Test
     public void test() {
         //1. “https://demoqa.com/webtables” sayfasina gidin
@@ -40,8 +42,19 @@ List<WebElement> departmant=driver.findElements(By.xpath("//div[@class='rt-table
         System.out.println("firstNameKierra = " + firstNameKierra);
         //10. Page sayfasinda bir method olusturun, Test sayfasindan satir ve sutun
         //sayisini girdigimde bana datayi yazdirsin
+
+
+
+    }
+
+    @Test
+    public void name() {
+        driver.get("https://demoqa.com/webtables");
+        data("1","3");
     }
     public void data(String satir,String sutun){
-
+        String xpath="//div[@class='rt-tr -odd']//tbody//tr[" + satir + "]//td[" + sutun + "]";
+        List<WebElement> satirSutun=driver.findElements(By.xpath(xpath));
+        System.out.println(satirSutun);
     }
 }
