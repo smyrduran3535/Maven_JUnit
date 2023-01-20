@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/S_Challenge/Day13_Challenge_Sahibinden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/S_Challenge/Day13_Challenge_Sahibinden.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tekrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tekrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day12/C02_ExplicitWait.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day14/C03_Screeshot2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day14/C03_Screeshot2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,81 +50,82 @@
       <recent name="C:\Users\USER\IdeaProjects\com.B103Maven_Junit\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C01.test">
-    <configuration name="C01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_Js_Type.test">
+    <configuration name="C01_Js_Executer_Scroll.scrollIntoViewTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="manuelautomation.*" />
+          <option name="PATTERN" value="Day17_JS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="manuelautomation" />
-      <option name="MAIN_CLASS_NAME" value="manuelautomation.C01" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Day17_JS" />
+      <option name="MAIN_CLASS_NAME" value="Day17_JS.C01_Js_Executer_Scroll" />
+      <option name="METHOD_NAME" value="scrollIntoViewTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C02_JS_Executer_Click.clickByJSTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="manuelautomation.*" />
+          <option name="PATTERN" value="Day17_JS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="manuelautomation" />
-      <option name="MAIN_CLASS_NAME" value="manuelautomation.C01" />
+      <option name="PACKAGE_NAME" value="Day17_JS" />
+      <option name="MAIN_CLASS_NAME" value="Day17_JS.C02_JS_Executer_Click" />
+      <option name="METHOD_NAME" value="clickByJSTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_Js_Executer_Type.typeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Day17_JS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Day17_JS" />
+      <option name="MAIN_CLASS_NAME" value="Day17_JS.C03_Js_Executer_Type" />
+      <option name="METHOD_NAME" value="typeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_Js_Type.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.B103Maven_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Exercise" />
+      <option name="MAIN_CLASS_NAME" value="Exercise.C04_Js_Type" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DownlondFile.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JS_InputAlma.getValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Selenium_Practice.day06.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Practice.day06" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day06.DownlondFile" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScreenShot.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium_Practice.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Practice.day06" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day06.ScreenShot" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stale_Exception.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.B103Maven_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Selenium_Practice.day06.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Selenium_Practice.day06" />
-      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day06.Stale_Exception" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="homework" />
+      <option name="MAIN_CLASS_NAME" value="homework.JS_InputAlma" />
+      <option name="METHOD_NAME" value="getValueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C01.test" />
-        <item itemvalue="JUnit.C01" />
-        <item itemvalue="JUnit.ScreenShot.test" />
-        <item itemvalue="JUnit.Stale_Exception.test" />
-        <item itemvalue="JUnit.DownlondFile.test" />
+        <item itemvalue="JUnit.C04_Js_Type.test" />
+        <item itemvalue="JUnit.JS_InputAlma.getValueTest" />
+        <item itemvalue="JUnit.C03_Js_Executer_Type.typeTest" />
+        <item itemvalue="JUnit.C02_JS_Executer_Click.clickByJSTest" />
+        <item itemvalue="JUnit.C01_Js_Executer_Scroll.scrollIntoViewTest" />
       </list>
     </recent_temporary>
   </component>
