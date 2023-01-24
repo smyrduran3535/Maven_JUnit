@@ -1,5 +1,9 @@
 package utilies;
 
+import Selenium_Practice.day07.C01_ExtendReport;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.commons.io.FileUtils;
 import org.junit.After;
@@ -21,7 +25,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public class TestBase {
+public abstract class TestBase {
     //testbase sınıfı before ve after methodlarını koymak icin kullaniriz
     //@Before,@After :destek methoddur. test method olması icin;@Test olması lazım
     //test base testlerden once ve sonra kullanılır.
@@ -31,9 +35,38 @@ public class TestBase {
     //yani TestBase testbase=new TestBase :bunu istemiyorum... Y A P I L A M A Z
     // amacım :bu sinifi extend etmek icindeki hazır methodları kullanmak
 
-    //driver objesi olustur:driver ya public yada protected olmalı. child classlarda gorulebilmeli
     protected static WebDriver driver;
+    /*
+    1- <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports --> pom.xml'e yüklemek
+    2- Eğer extentReport almak istersek ilk yapmamız gereken ExtentReport class'ından bir obje oluşturmak
+    3- HTLM formatında düzenleneceği için ExtentHtmlReporter class'ından obje oluşturmak
+     */
+    protected ExtentReports extentReports;//Raporlamayı başlatırız
+    protected ExtentHtmlReporter extentHtmlReporter;//Raporumu HTLM formatında düzenler
+   protected ExtentTest extentTest;//test asamalarına extenttest objesi ile bilgi ekleriz
+    @Before
+    public void setup() {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        //----------------------------------------------------------------
+        extentReports = new ExtentReports();
+        String tarih = new SimpleDateFormat("hh_mm_ss_ddMMyyyy").format(new Date());
+        String dosyaYolu = "./target/ExtentReports/htmlreport"+tarih+".html";
+        extentHtmlReporter = new ExtentHtmlReporter(dosyaYolu);
+        extentReports.attachReporter(extentHtmlReporter);
+        //Raporda gözükmesini istediğimiz bilgiler için
+        extentReports.setSystemInfo("Browser","Chrome");
+        extentReports.setSystemInfo("Tester","Sumeyra");
+        extentHtmlReporter.config().setDocumentTitle("Extent Report");
+        extentHtmlReporter.config().setReportName("Test Sonucu");
+        extentTest=extentReports.createTest("Extent Tests","Test Raporu");
 
+    }
+
+
+    //driver objesi olustur:driver ya public yada protected olmalı. child classlarda gorulebilmeli
     //setUp olust
     @Before
     public void setUp() {
@@ -51,6 +84,7 @@ public class TestBase {
     public void tearDown() {
         waitFor(5);
         //driver.quit();
+        extentReports.flush();
     }
 
     //    MULTIPLE WINDOW:

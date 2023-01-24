@@ -4,6 +4,7 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import utilies.TestBase;
 
 public class JS_InputAlma extends TestBase {
@@ -44,5 +45,14 @@ JavascriptExecutor js= (JavascriptExecutor) driver;
 String metin=js.executeScript("return document.getElementById('"+idOfElement+"').value").toString();//elemanın valuesinı return edecek..elementleri bulmak icin;getElementById kull..
         //sonra stringe cevirdik..istedigimiz attribute i alabiliriz bununla en cok id kullanılır
         System.out.println("kutudaki metin = " + metin);//kutunun icindeki deger her zaman value ya esittir
+    }
+
+    @Test
+    public void name() {
+        driver.get("https://www.priceline.com/");
+        WebElement dropdown= driver.findElement(By.id("hotelDates"));
+        Select select=new Select(dropdown);
+     select.selectByValue("01/22/2023 – 01/25/2023");
+
     }
 }

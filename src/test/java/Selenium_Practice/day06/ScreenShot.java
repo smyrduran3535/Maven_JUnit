@@ -13,28 +13,40 @@ import java.util.Date;
 import java.util.List;
 
 public class ScreenShot extends TestBase {
+    String tarih;
     @Test
-    public void test() throws IOException {
+    public void test() throws IOException, InterruptedException {
         //Amazon sayfasına gidelim
-        driver.get("https://www.amazon.com");
-        //Tüm sayfanın resmini alalım !!!!!!!!!!!! icin asagıdaki yolu izle
-        //aklına takesreenshot ve getscreenshot gelsin
-        TakesScreenshot ts= (TakesScreenshot) driver;
-        /*FileUtils classı ;file nesneleri ile birlikte kullanabilecegimiz methodlar icerir bu methodşarı kullanarak dosyalarda okuma,yazma,copy
-        islemlerini cok daha kolay yapabiliriz
-         */
-        String tarih=new SimpleDateFormat("hh__mm_ss_ddMMyyyy").format(new Date());
-      FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File("test-output/EkranGoruntuleri/tumsayfa"+tarih+".jpg"));
-
+        //Tüm sayfanın resmini alalım
         //Yeni bir sekmede techproeducation sayfasına gidip sayfanın resmini alalım
-        driver.switchTo().newWindow(WindowType.TAB);
-        driver.get("https://techproeducation.com");
-        FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File("test-output/EkranGoruntuleri/tumsayfa"+tarih+".jpg"));
         //Tekrar amazon sayfasına dönüp iphone aratalım
-        List<String> pencereler=new ArrayList<>(driver.getWindowHandles());
-        driver.switchTo().window(pencereler.get(0));
-        driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
         //Arama sonucunun resmini alalım
-        FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File("test-output/EkranGoruntuleri/tumsayfa"+tarih+".jpg"));
+
+
+            //Amazon sayfasına gidelim
+            driver.get("https://amazon.com");
+            String amazonSayfasi = driver.getWindowHandle();
+            //Tüm sayfanın resmini alalım
+            tarih = new SimpleDateFormat("hh_mm_ss_ddMMyyyy").format(new Date());
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File("target/tumSayfaResmi/tumSayfa"+tarih+".jpeg"));
+        /*
+        FILEUTILS CLASS'I, FİLE NESNELERİ İLE BİRLİKTE KULLANABİLECEĞİMİZ METHODLAR İÇERİR.
+        BU METHODLARI KULLANARAK DOSYALARDA OKUMA, YAZMA VE KOPYALAMA İŞLEMLERİNİ ÇOK DAHA KOLAY YAPABİLİRİZ
+         */
+            //Yeni bir sekmede techproeducation sayfasına gidip sayfanın resmini alalım
+            Thread.sleep(6000);
+            driver.switchTo().newWindow(WindowType.TAB); //Yeni bir sekme açtık
+            driver.get("https://techproeducation.com");
+            tarih = new SimpleDateFormat("hh_mm_ss_ddMMyyyy").format(new Date());
+            FileUtils.copyFile(ts.getScreenshotAs(OutputType.FILE),new File("target/tumSayfaResmi/tumSayfa"+tarih+".jpeg"));
+            //Tekrar amazon sayfasına dönüp iphone aratalım
+            driver.switchTo().window(amazonSayfasi);
+            driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone", Keys.ENTER);
+            //Arama sonucunun resmini alalım
+            WebElement sonuc = driver.findElement(By.xpath("(//*[@class='a-section a-spacing-small a-spacing-top-small'])[1]"));
+            FileUtils.copyFile(sonuc.getScreenshotAs(OutputType.FILE),new File("target/WebElementScreenShot/WEScreenShot"+tarih+".jpeg"));
+            //sonuc elementini locate edip webelmente assine edin
+            //FileUtils.copyFile(WE.getScreenshotAs(OutputType.FILE),new File("target/tumSayfaResmi/tumSayfa"+tarih+".jpeg"));
     }
 }

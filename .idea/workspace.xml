@@ -7,11 +7,10 @@
     <list default="true" id="3683387f-c39b-4dba-99fd-94f819f77550" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Day17_JS/C01_Js_Executer_Scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Day17_JS/C01_Js_Executer_Scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day06/ScreenShot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Selenium_Practice/day06/ScreenShot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tekrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tekrar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/day15/C02_WebTable_Log4J.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/day15/C02_WebTable_Log4J.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/homework/JS_InputAlma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homework/JS_InputAlma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Capitals (1).xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources01/Capitals (1).xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/renkTablo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources01/renkTablo.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilies/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,76 +55,82 @@
       <recent name="C:\Users\USER\IdeaProjects\com.B103Maven_Junit\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.C02_WebTable_Log4J.table1Print">
-    <configuration name="C01_Log4J.log4LTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.C04_WriteExcell.name01">
+    <configuration name="C02_WebTable.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day18.*" />
+          <option name="PATTERN" value="Selenium_Practice.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day18" />
-      <option name="MAIN_CLASS_NAME" value="day18.C01_Log4J" />
-      <option name="METHOD_NAME" value="log4LTest" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.day07" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day07.C02_WebTable" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_WebTable_Log4J.table1Print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ReadExcell.ReadExcell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15.*" />
+          <option name="PATTERN" value="Selenium_Practice.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="day15" />
-      <option name="MAIN_CLASS_NAME" value="day15.C02_WebTable_Log4J" />
-      <option name="METHOD_NAME" value="table1Print" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.day07" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day07.C03_ReadExcell" />
+      <option name="METHOD_NAME" value="ReadExcell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JS_InputAlma.JSExecutor_GetValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_WriteExcell.name01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="Selenium_Practice.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.JS_InputAlma" />
-      <option name="METHOD_NAME" value="JSExecutor_GetValueTest" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.day07" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day07.C04_WriteExcell" />
+      <option name="METHOD_NAME" value="name01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JS_InputAlma.getValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_WriteExcell.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="Selenium_Practice.day07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework" />
-      <option name="MAIN_CLASS_NAME" value="homework.JS_InputAlma" />
-      <option name="METHOD_NAME" value="getValueTest" />
+      <option name="PACKAGE_NAME" value="Selenium_Practice.day07" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day07.C04_WriteExcell" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tekrar.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C04_WriteExcell.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.B103Maven_Junit" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tekrar" />
-      <option name="METHOD_NAME" value="name" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Selenium_Practice.day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Selenium_Practice.day07" />
+      <option name="MAIN_CLASS_NAME" value="Selenium_Practice.day07.C04_WriteExcell" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.C02_WebTable_Log4J.table1Print" />
-        <item itemvalue="JUnit.C01_Log4J.log4LTest" />
-        <item itemvalue="JUnit.JS_InputAlma.JSExecutor_GetValueTest" />
-        <item itemvalue="JUnit.JS_InputAlma.getValueTest" />
-        <item itemvalue="JUnit.Tekrar.name" />
+        <item itemvalue="JUnit.C04_WriteExcell.name01" />
+        <item itemvalue="JUnit.C04_WriteExcell.test01" />
+        <item itemvalue="JUnit.C04_WriteExcell.test" />
+        <item itemvalue="JUnit.C03_ReadExcell.ReadExcell" />
+        <item itemvalue="JUnit.C02_WebTable.test" />
       </list>
     </recent_temporary>
   </component>

@@ -55,6 +55,20 @@ scrollTopJS();
 waitFor(2);
 scrollEndJS();
 waitFor(2);
+
+                      /*
+        WebElement element = driver.findElement(By.xpath("element"));
+        Actions actions = new Actions(driver);
+        actions.moveToElement(ele);
+        actions.perform();
+
+         Bir öğeyi scrollIntoView() için Yukarı veya Aşağıya görünürlükOfElementLocated() için
+        WebDriverWait'i tetiklemeniz gerekir ve aşağıdaki çözümü kullanabilirsiniz:
+
+       ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", new WebDriverWait(driver, 20).
+       until(ExpectedConditions.visibilityOfElementLocated(By.xpath("element"))));
+         */
+
     }
 
 }
